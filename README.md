@@ -34,7 +34,28 @@ python manage.py runserver
   - ``api/students/:id`` ``[GET, PUT, PATCH, DELETE]``
   - ``api/schools/:id/students`` ``[GET, POST]``
   - ``api/schools/:id/students/:id`` ``[GET, PUT, PATCH, DELETE]``
-
+- The solution is already configured to be hosted on heroku and API links can be listed as:
+  - ``https://school-students-api.herokuapp.com/api/schools/``
+  - ``https://school-students-api.herokuapp.com/api/students/``
+  - ``https://school-students-api.herokuapp.com/api/schools/:id/``
+  - ``https://school-students-api.herokuapp.com/api/students/:id/``
+  - ``https://school-students-api.herokuapp.com/api/schools/:id/students/``
+  - ``https://school-students-api.herokuapp.com/api/schools/:id/students/:id/``
+- Django Administration on heroku:
+  - ``https://school-students-api.herokuapp.com/admin/``
+- Example requests:
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/schools/``
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/schools/?search=bangkok`` (retrieving the school list whose location is in Bangkok)
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/schools/11/``
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/students/``
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/students/af64dbcc-2154-4fee-8/``
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/schools/9/students/``
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/schools/9/students/``
+   - ``curl -X GET https://school-students-api.herokuapp.com/api/schools/9/students/cc06d004-6945-4d9b-a/``
+   - ``curl -X POST https://school-students-api.herokuapp.com/api/schools/2/students/ -d 'first_name=Student-1551&last_name=YUNKOP&nationality=TR&birth_date=1997-10-17&school=2'`` (Trying to make a student instance relation to the school which is full of its maximum student capacity)
+   - ``curl -X POST https://school-students-api.herokuapp.com/api/schools/13/students/ -d 'first_name=Student-1577&last_name=MONYUL&nationality=CA&birth_date=2002-02-26&school=13'``
+   - ``curl -X DELETE https://school-students-api.herokuapp.com/api/schools/5/students/25a56054-6964-4547-9/``
+   - ``curl -X PUT https://school-students-api.herokuapp.com/api/schools/7/students/513db837-8fab-4830-8/ -d 'first_name=Student-73&last_name=RESOPL&nationality=US&birth_date=2003-04-05&school=7'``
 ## Guideline Notes
 - Delivering this work up of the test assignment took around 6 hours for me to complete along with creating and populating fake initial data. It can be distributed as one hour for Step One, two hours for Step Two, one hour for Step Three and two hours for some Bonus items. 
 ## Contact
