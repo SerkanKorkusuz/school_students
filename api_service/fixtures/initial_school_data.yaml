@@ -1,0 +1,139 @@
+- fields:
+    name: School A
+    max_student_capacity: 125
+    location: bangkok
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 1
+  model: api_service.School
+
+- fields:
+    name: School B
+    max_student_capacity: 105
+    location: nonthaburi
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 2
+  model: api_service.School
+
+- fields:
+    name: School C
+    max_student_capacity: 250
+    location: pattaya
+    image: static/uploads/default-student.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 3
+  model: api_service.School
+
+- fields:
+    name: School D
+    max_student_capacity: 150
+    location: surat-thani
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 4
+  model: api_service.School
+
+- fields:
+    name: School E
+    max_student_capacity: 110
+    location: chonburi
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 5
+  model: api_service.School
+
+- fields:
+    name: School F
+    max_student_capacity: 125
+    location: istanbul
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 6
+  model: api_service.School
+
+- fields:
+    name: School G
+    max_student_capacity: 200
+    location: malatya
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 7
+  model: api_service.School
+
+- fields:
+    name: School H
+    max_student_capacity: 100
+    location: ankara
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 8
+  model: api_service.School
+
+- fields:
+    name: School I
+    max_student_capacity: 115
+    location: songkhla
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 9
+  model: api_service.School
+
+- fields:
+    name: School J
+    max_student_capacity: 105
+    location: istanbul
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 10
+  model: api_service.School
+
+- fields:
+    name: School K
+    max_student_capacity: 100
+    location: bangkok
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 11
+  model: api_service.School
+
+- fields:
+    name: School L
+    max_student_capacity: 120
+    location: chonburi
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 12
+  model: api_service.School
+
+- fields:
+    name: School M
+    max_student_capacity: 210
+    location: istanbul
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 13
+  model: api_service.School
+
+- fields:
+    name: School N
+    max_student_capacity: 120
+    location: nonthaburi
+    image: static/img/default-school.jpg
+    created_at: '2022-03-13T21:56:17.34267+03:00'
+    updated_at: '2022-03-13T21:56:17.342804+03:00'
+  pk: 14
+  model: api_service.School

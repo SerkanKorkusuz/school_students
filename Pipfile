@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-environ = "0.8.1"
+psycopg2 = "2.9.3"
+django-countries = "*"
+pillow = "*"
+pyyaml = "*"
+drf-nested-routers = "*"
+gunicorn = "*"
+django-heroku = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
