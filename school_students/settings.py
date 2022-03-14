@@ -1,4 +1,5 @@
 from pathlib import Path
+import django_heroku
 import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -116,3 +117,6 @@ DEFAULT_LOCATION = 'bangkok'
 DEFAULT_SCHOOL_IMG = STATIC_URL + 'img/default-school.jpg'
 DEFAULT_STUDENT_IMG = STATIC_URL + 'img/default-student.jpg'
 UPLOAD_PATH = STATIC_URL + 'uploads/'
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
